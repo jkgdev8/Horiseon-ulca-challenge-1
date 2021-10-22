@@ -8,6 +8,8 @@
 </head>
 
 <body>
+<!-- This is not really a section. This is the header so I would remove the section tag and just leave it as a div -->
+<section>
     <div class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
@@ -24,11 +26,16 @@
             </ul>
         </div>
     </div>
+</section>
 
-
+<!-- Here you wrapped everything in a section. That's not really the purpose of the section. If anything this is more like a container for the content of the page -->
+<!-- I would change this back to a div -->
+<section>
     <div class="hero"> </div>
     <div class="content">
-        <section>
+        <!-- I think it makes more sense for each one of these to be a section -->
+        <!-- But to be honest, I've never used the section tag in work so it's not that big of a deal -->
+        <!-- I think what the want you to learn, is to identify the different parts of a webpage and I would say these would be the sections  -->
         <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" alt="search engine optimization" class="float-left" />
             <h2>Search Engine Optimization</h2>
@@ -49,7 +56,6 @@
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
-        </section>
         </div>
     </div>
 
@@ -76,7 +82,7 @@
             </p>
         </div>
     </div>
-
+</section> 
 
 
     <div class="footer">
